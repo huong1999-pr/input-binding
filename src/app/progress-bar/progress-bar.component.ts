@@ -58,18 +58,7 @@ export class ProgressBarComponent implements OnInit /*, OnChanges */ {
 
   constructor() {}
 
-  // ngOnChanges(changes: SimpleChanges) {
-  //   if ('progress' in changes) {
-  //     if (typeof changes['progress'].currentValue !== 'number') {
-  //       const progress = Number(changes['progress'].currentValue);
-  //       if (Number.isNaN(progress)) {
-  //         this.progress = 0;
-  //       } else {
-  //         this.progress = progress;
-  //       }
-  //     }
-  //   }
-  // }
+
 
   ngOnInit() {}
 }
